@@ -1,1 +1,1 @@
-# idea-arduino
+# IDE Academy Arduino workshop files
