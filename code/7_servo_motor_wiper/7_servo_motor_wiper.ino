@@ -11,8 +11,7 @@ int pos; // stores position
 int pos_min = 10;   // servo minimum and maximum angle limit,
 int pos_max = 180;  // to avoid shaking motor when over-extending = bad for servo!
 
-int wipe_counter;   // stores count of wipes executed
-//boolean wipe_direction;  // stores which way servo is moving
+boolean wipe_direction;  // stores which way servo is moving
 
 
 void setup() {
@@ -41,8 +40,8 @@ void resetPos() {
 
 void stepWipe() {
 
-  // if counter is even number wipe right, else wipe left
-  if (wipe_counter % 2 == 0) {
+  // if direction is 1 wipe left (up), if 0 wipe right (down)
+  if (wipe_direction == 1) {
     pos += 2; // increment pos value by x
   } else {
     pos -= 2; // decrement pos value by x
@@ -50,9 +49,12 @@ void stepWipe() {
   pos = constrain(pos, pos_min, pos_max); // constrain new pos within limits range
   myservo.write(pos); // move to new pos
 
-  // if limit reached, increment wipe counter so direction flips
-  if (pos == pos_min ||  pos == pos_max) {
-    wipe_counter++;
+  // if limit reached, flip direction
+  if (pos == pos_min) {   // at min, wipe left
+    wipe_direction = 1;
+  }
+  if (pos == pos_max) {   // at max, wipe right
+    wipe_direction = 0;
   }
 
 }
