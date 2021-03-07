@@ -22,16 +22,6 @@ int pos; // stores position
 int pos_min = 10;   // servo minimum and maximum angle limit,
 int pos_max = 180;  // to avoid shaking motor when over-extending = bad for servo!
 
-// Collection of states for Pomodoro Acting Machine (pam)
-const int state_init = 0;
-const int state_idle = 1;
-const int state_wipe = 2;
-const int state_lose = 3;
-const int state_win = 4;
-
-// Remember the current state
-int current_state = 0;
-
 // Make it possible to track the passing of time
 unsigned long timer1_duration = 2000; // start delay
 unsigned long timer1_mark = 0;
@@ -222,6 +212,16 @@ void setWiperSpeed() {
 
 
 // ------------------------------------------ Acting Machine control flow
+
+// Collection of states for Pomodoro Acting Machine (pam)
+const int state_init = 0;
+const int state_idle = 1;
+const int state_wipe = 2;
+const int state_lose = 3;
+const int state_win = 4;
+
+// Remember the current state
+int current_state = 0;
 
 void updateStateMachine ()
 {
