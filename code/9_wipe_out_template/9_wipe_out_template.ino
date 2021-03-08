@@ -10,7 +10,13 @@
 
 
 void setup() {
-  // TODO: Add setup code here
+  // TODO: Add missing setup code here
+
+
+  // initial effects
+  resetPos();
+  ledsOff();
+  setTimer1();
 }
 
 void loop() {
@@ -104,27 +110,17 @@ void setWiperSpeed() {
 // ------------------------------------------ Acting Machine control flow
 
 // Collection of states for the Acting Machine 
-const int state_init = 0;
-const int state_idle = 1;
-const int state_wipe = 2;
-const int state_lose = 3;
-const int state_win = 4;
+const int state_idle = 0;
+const int state_wipe = 1;
+const int state_lose = 2;
+const int state_win = 3;
 // Remember the current state
 int current_state = 0;
 
 void updateStateMachine ()
 {
   switch (current_state) {
-    // -------------------------------------- State init
-    case state_init :
-      if (1) {
-        resetPos();
-        ledsOff();
-        setTimer1();
-        current_state = state_idle;
-      }
-      break;
-
+    
     // -------------------------------------- State idle
     case state_idle :
       if (timer1Expired()) {

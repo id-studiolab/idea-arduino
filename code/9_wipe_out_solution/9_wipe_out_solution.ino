@@ -57,12 +57,17 @@ void setup() {
 
   // seed random generator to make it non-repetitive,
   // using A1 because it's unlikely a Grove component is attached to it,
-  // noise on the input feeds the seed 
+  // noise on the input feeds the seed
   randomSeed(analogRead(A1));
 
   // set button pins to input
   pinMode(button1_pin, INPUT);
   pinMode(button2_pin, INPUT);
+
+  // initial effects
+  resetPos();
+  ledsOff();
+  setTimer1();
 }
 
 void loop() {
@@ -92,9 +97,9 @@ boolean buttonPressed() {
   // return true if the correct button is pressed, else false
 
   if (wipe_dir == 1) { // wiping left
-    
+
     button1_current_state = digitalRead(button1_pin);
-    
+
     if (button1_current_state == HIGH && button1_last_state == LOW) {
       button_success = true;
     } else {
@@ -104,9 +109,9 @@ boolean buttonPressed() {
     return (button_success);
 
   } else { // wiping right
-    
+
     button2_current_state = digitalRead(button2_pin);
-    
+
     if (button2_current_state == HIGH && button2_last_state == LOW) {
       button_success = true;
     } else {
@@ -120,7 +125,7 @@ boolean buttonPressed() {
 boolean wipeFinished() {
   // return true if wiper arrived at destination, else false
   if (wipe_dir == 1) {    // wiping left
-    if (pos == pos_max) { 
+    if (pos == pos_max) {
       return true;
     } else {
       return false;
@@ -214,11 +219,10 @@ void setWiperSpeed() {
 // ------------------------------------------ Acting Machine control flow
 
 // Collection of states for Pomodoro Acting Machine (pam)
-const int state_init = 0;
-const int state_idle = 1;
-const int state_wipe = 2;
-const int state_lose = 3;
-const int state_win = 4;
+const int state_idle = 0;
+const int state_wipe = 1;
+const int state_lose = 2;
+const int state_win = 3;
 
 // Remember the current state
 int current_state = 0;
@@ -226,15 +230,6 @@ int current_state = 0;
 void updateStateMachine ()
 {
   switch (current_state) {
-    // -------------------------------------- State init
-    case state_init :
-      if (1) {
-        resetPos();
-        ledsOff();
-        setTimer1();
-        current_state = state_idle;
-      }
-      break;
 
     // -------------------------------------- State idle
     case state_idle :
