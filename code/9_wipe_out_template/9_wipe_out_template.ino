@@ -97,6 +97,10 @@ void setTimer2() {
   // TODO: Write code to perform this effect
 }
 
+void setTimer3() {
+  // TODO: Write code to perform this effect
+}
+
 void setWiperSpeed() {
   // speed up wiping by shortening the time between wipe steps
   timer3_duration = map(counter, 0, 9, 20, 1); // map game rounds count to wiper step interval in milliseconds
@@ -127,6 +131,7 @@ void updateStateMachine ()
         setDirection();
         targetLed();
         setWiperSpeed();
+        setTimer3();
         current_state = state_wipe;
       }
       break;

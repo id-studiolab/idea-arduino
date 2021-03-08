@@ -209,6 +209,11 @@ void setTimer2() {
   timer2_mark = millis();
 }
 
+void setTimer3() {
+  // store current time mark
+  timer3_mark = millis();
+}
+
 void setWiperSpeed() {
   // speed up wiping by shortening the time between wipe steps
   timer3_duration = map(counter, 0, 9, 20, 1); // wiper step interval in milliseconds
@@ -237,6 +242,7 @@ void updateStateMachine ()
         setDirection();
         targetLed();
         setWiperSpeed();
+        setTimer3();
         current_state = state_wipe;
       }
       break;
