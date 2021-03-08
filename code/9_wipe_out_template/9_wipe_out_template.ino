@@ -13,14 +13,14 @@ void setup() {
   // TODO: Add missing setup code here
 
 
-  // initial effects
+  // initial effects, no changes here: 
   resetPos();
   ledsOff();
   setTimer1();
 }
 
 void loop() {
-  updateStateMachine();   // nothing is to be changed or added in the loop()
+  updateStateMachine(); // nothing is to be changed or added in the loop()
 }
 
 
@@ -109,7 +109,7 @@ void setWiperSpeed() {
 
 
 
-// *** no changes or additions below this ***
+// ******* no changes or additions below this *******
 
 // ------------------------------------------ Acting Machine control flow
 
