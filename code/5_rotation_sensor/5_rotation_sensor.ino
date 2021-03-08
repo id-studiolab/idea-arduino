@@ -23,6 +23,8 @@ int rotaValue;
 
 
 void setup() {  
+  Serial.begin(9600);
+  
   // Initialize Chainable LEDs
   FastLED.addLeds<P9813, DATA_PIN, CLOCK_PIN, RGB>(leds, NUM_LEDS); 
 
@@ -36,6 +38,11 @@ void loop() {
 
   // scale sensor input value [0,1023] to LED brightness range [0,255]
   int brightness = map(rotaValue, 0, 1023, 0, 255);
+
+  // print values to serial monitor/plotter
+  Serial.print(rotaValue);
+  Serial.print(" ");
+  Serial.println(brightness);
 
   // set color and show
   leds[0].setRGB(brightness, brightness, brightness);
