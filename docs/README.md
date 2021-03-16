@@ -75,7 +75,7 @@ Formatting neat serial monitor messages.
 
 
 ### 🍅 7. My first robot : servo motor
-Controlling the servo motor with a sensor and the for loop. Plus a blocking problem.
+Controlling the servo motor manually with a rotation sensor and automatically with the for loop. Plus a blocking problem.
 
 {% include vimeoPlayer.html id=523401340 %}
 
@@ -118,7 +118,7 @@ Non-blocking timing of events.
 
 - A [great game song](https://youtu.be/wmin5WkOuPw) to play during Wipe-Out
 - A great [soundscape for coding](https://youtu.be/6xBCdNBqJWE)
-- - [Dieter Vandoren on the web](https://dietervandoren.net/)
+- [Dieter Vandoren on the web](https://dietervandoren.net/)
 - ... enjoy ❤️
 
 Dieter Vandoren & Aadjan van der Helm
