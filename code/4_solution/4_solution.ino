@@ -1,3 +1,6 @@
+// Button presses cycle between 3 colors on a Grove chainable RGB led
+
+
 // ---------------------------------------------- Libraries
 
 #include <FastLED.h>

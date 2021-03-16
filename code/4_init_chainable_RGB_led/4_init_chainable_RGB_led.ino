@@ -1,5 +1,6 @@
-// A sketch with all the required initialization elements to use 1 chainable LED.
-// The sketch does nothing but initialize it.
+// A sketch with all the required initialization elements 
+// to use 1 Grove chainable RGB LED with the FastLED library.
+// The sketch does nothing but initialize and turn it off.
 
 
 // ---------------------------------------------- Libraries
@@ -24,6 +25,8 @@ void setup() {
   // Initialize Chainable LEDs
   FastLED.addLeds<P9813, DATA_PIN, CLOCK_PIN, RGB>(leds, NUM_LEDS); 
 
+  leds[0].setRGB(0, 0, 0);
+  FastLED.show();  // show it!  
 }
 
 void loop() {

@@ -1,3 +1,7 @@
+// Blinks a Grove chainable RGB led 
+// Demonstrates the use of the switch/case statement
+
+
 // ---------------------------------------------- Libraries
 
 #include <FastLED.h>
@@ -22,7 +26,9 @@ int loopCounter;
 void setup() {  
   // Initialize Chainable LEDs
   FastLED.addLeds<P9813, DATA_PIN, CLOCK_PIN, RGB>(leds, NUM_LEDS); 
-
+  
+  leds[0].setRGB(0, 0, 0);
+  FastLED.show();  // show it!  
 }
 
 void loop() {

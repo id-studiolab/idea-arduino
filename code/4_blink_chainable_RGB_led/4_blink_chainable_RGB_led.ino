@@ -1,3 +1,6 @@
+// Blink a Grove chainable RGB led
+
+
 // ---------------------------------------------- Libraries
 
 #include <FastLED.h>
