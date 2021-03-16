@@ -4,19 +4,19 @@ In this repository you will find all the materials related to the online class.
 ## CLASS LIST
 
 ### 🍅 Part 01: Introduction : why prototyping for designers?
-Intro to the Arduino and Grove eco-systems, and their value to designers.
+Intro to the Arduino and Grove eco-systems, and their value for designers.
 
 {% include vimeoPlayer.html id=523239406 %}
 
 [[VIDEO]](https://vimeo.com/523239406/4390efdae5)
 
 Installation steps:
-1. download and install the CP2102N USB driver
-2. download and install the Arduino IDE software
-3. configure the Arduino IDE software for using the Seeeduino Lotus board
+1. download and install the [CP2102x USB driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+2. download and install the [Arduino IDE software](https://www.arduino.cc/en/software/)
+3. [configure](https://wiki.seeedstudio.com/Seeed_Arduino_Boards/) the Arduino IDE software for using the Seeeduino Lotus board (start from step 2)
 
 Additional resources:
-1. official Arduino tutorials are a great place to continue your exploration after completing this IDE Academy
+1. official [Arduino tutorials](https://www.arduino.cc/en/Tutorial/HomePage/) are a great place to continue your exploration after completing this IDE Academy
 2. Seeedstudio [Grove wiki](https://wiki.seeedstudio.com/Grove/) 
 
 ### 🍅 Part 02: Hello world : Arduino IDE & Blink
