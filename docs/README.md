@@ -26,6 +26,7 @@ Introduction to the Arduino IDE software and turning the internal LED on and off
 {% include vimeoPlayer.html id=523240097 %}
 
 [[VIDEO]](https://vimeo.com/523240097/a5b9baab76)
+
 [[CODE: Blink with functions]](https://github.com/id-studiolab/idea-arduino/blob/main/code/2_blink_function_1/2_blink_function_1.ino)
 
 ### 🍅 3. My first interaction: button & led
@@ -34,6 +35,7 @@ Reading the digital button sensor input, if/else statement and serial monitor fe
 {% include vimeoPlayer.html id=523470804 %}
 
 [[VIDEO]](https://vimeo.com/523470804/cdb7809d5b)
+
 [[CODE: button and led]](https://github.com/id-studiolab/idea-arduino/blob/main/code/3_button_and_led/3_button_and_led.ino)
 
 
@@ -58,37 +60,53 @@ Reading the analog rotation sensor input, scaling values with the map function, 
 {% include vimeoPlayer.html id=523242101 %}
 
 [[VIDEO]](https://vimeo.com/523242101/ac8614c8ca)
+
 [[CODE: rotation sensor]](https://github.com/id-studiolab/idea-arduino/blob/main/code/5_rotation_sensor/5_rotation_sensor.ino)
 
 
-### 🍅 Part 06: Talk to me baby : serial messaging
+### 🍅 6. Talk to me baby : serial messaging
+Formatting neat serial monitor messages.
 
 {% include vimeoPlayer.html id=523242373 %}
 
 [[VIDEO]](https://vimeo.com/523242373/dc9f018fee)
-[[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/6_serial_messaging/6_serial_messaging.ino)
+
+[[CODE: serial messaging]](https://github.com/id-studiolab/idea-arduino/blob/main/code/6_serial_messaging/6_serial_messaging.ino)
 
 
-### 🍅 Part 07: My first robot : servo motor
+### 🍅 7. My first robot : servo motor
+Controlling the servo motor with a sensor and the for loop. Plus a blocking problem.
 
 {% include vimeoPlayer.html id=523401340 %}
 
 [[VIDEO]](https://vimeo.com/523401340/52f9b3df7a)
-[[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/7_solution/7_solution.ino)
 
-### 🍅 Part 08: Time is honey : millis() & proper timing
+[[CODE: servo and rotation sensor]](https://github.com/id-studiolab/idea-arduino/blob/main/code/7_servo_motor_rotation_sensor/7_servo_motor_rotation_sensor.ino)
+
+[[CODE: servo wiper with for loop]](https://github.com/id-studiolab/idea-arduino/blob/main/code/7_servo_wiper_for_loop/7_servo_wiper_for_loop.ino)
+
+### 🍅 8. Time is honey : millis() & proper timing
+Non-blocking timing of events.
 
 {% include vimeoPlayer.html id=523401869 %}
 
 [[VIDEO]](https://vimeo.com/523401869/8ea40c624f)
-[[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/8_timing/8_timing.ino)
 
-### 🍅 Part 09: The game : Wipe-out
+[[CODE: non-blocking blink]](https://github.com/id-studiolab/idea-arduino/blob/main/code/8_blink_non-blocking/8_blink_non-blocking.ino)
+
+### 🍅 9. The game : Wipe-Out
 
 {% include vimeoPlayer.html id=523402167 %}
 
 [[VIDEO]](https://vimeo.com/523402167/5a131160f3)
-[[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9_wipe_out_template/9_wipe_out_template.ino)
+
+[[Actng Machine Diagram: RGB lamp]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9%20RGB%20lamp%20Acting%20Machine%20Diagram.pdf)
+
+[[CODE: RGB lamp with acting machine]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9_RGB_button_acting_machine/9_RGB_button_acting_machine.ino)
+
+[[Acting Machine Diagram: Wipe-Out game]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9%20Wipe%20Out%20game%20Acting%20Machine%20Diagram.pdf)
+
+[[CODE: Wipe-Out template]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9_wipe_out_template/9_wipe_out_template.ino)
 
 ## OTHER RESOURCES
 - A [great game song](https://youtu.be/wmin5WkOuPw) to play during Wipe-Out
