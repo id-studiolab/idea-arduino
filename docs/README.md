@@ -18,6 +18,7 @@ Installation steps:
 Additional resources:
 1. official [Arduino tutorials](https://www.arduino.cc/en/Tutorial/HomePage/) are a great place to continue your exploration after completing this IDE Academy
 2. Seeedstudio [Grove wiki](https://wiki.seeedstudio.com/Grove/) 
+3. Seeedstudio [Seeeduino Lotus](https://wiki.seeedstudio.com/Seeeduino_Lotus/) board documentation
 
 ### 🍅 Part 02: Hello world : Arduino IDE & Blink
 Learn to operate the Arduino IDE and how to turn the internal LED on and off
