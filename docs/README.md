@@ -14,9 +14,9 @@ Intro to the class resources and materials.
 ### 🍅 Part 02: Hello world : Arduino IDE & Blink
 Learn to operate the Arduino IDE and how to turn the internal LED on and off
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VHdmtCyc9As" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://vimeo.com/121011727" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[[VIDEO]](https://youtu.be/VHdmtCyc9As)
+[[VIDEO]](https://vimeo.com/121011727)
 [[CODE]](https://github.com/id-studiolab/pomodoro/blob/master/arduino_code/01_chainable_led_blink/01_chainable_led_blink.ino)
 [[SLIDES]](https://id-studiolab.github.io/pomodoro/slides/01_chainable_led_blink.pdf)
 
