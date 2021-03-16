@@ -1,3 +1,7 @@
+// Dimming control of a Grove chainable RGB led with a rotation sensor input
+// Prints values to the serial monitor
+
+
 // ---------------------------------------------- Libraries
 
 #include <FastLED.h>
@@ -37,14 +41,14 @@ void loop() {
   rotaValue = analogRead(rotaPin);
 
   // scale sensor input value [0,1023] to LED brightness range [0,255]
-  int brightness = map(rotaValue, 0, 1023, 0, 255);
+  int dim = map(rotaValue, 0, 1023, 0, 255);
 
   // print values to serial monitor/plotter
   Serial.print(rotaValue);
   Serial.print(" ");
-  Serial.println(brightness);
+  Serial.println(dim);
 
   // set color and show
-  leds[0].setRGB(brightness, brightness, brightness);
+  leds[0].setRGB(dim, dim, dim);
   FastLED.show();
 }

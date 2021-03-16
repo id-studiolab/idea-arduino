@@ -1,3 +1,6 @@
+// Blink 2 Grove chainable RGB leds
+
+
 // ---------------------------------------------- Libraries
 
 #include <FastLED.h>
