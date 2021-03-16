@@ -29,7 +29,7 @@ Introduction to the Arduino IDE software and turning the internal LED on and off
 [[CODE: Blink with functions]](https://github.com/id-studiolab/idea-arduino/blob/main/code/2_blink_function_1/2_blink_function_1.ino)
 
 ### 🍅 3. My first interaction: button & led
-Reading button sensor input, if/else statement and serial monitor feedback.
+Reading the digital button sensor input, if/else statement and serial monitor feedback.
 
 {% include vimeoPlayer.html id=523470804 %}
 
@@ -43,18 +43,22 @@ The Grove chainable RGB LED, FastLED library and switch/case statement.
 {% include vimeoPlayer.html id=523241204 %}
 
 [[VIDEO]](https://vimeo.com/523241204/a698351a80)
+
 [[CODE: initializing the chainable RGB led]](https://github.com/id-studiolab/idea-arduino/blob/main/code/4_init_chainable_RGB_led/4_init_chainable_RGB_led.ino)
+
 [[CODE: blink the chainable RGB led]](https://github.com/id-studiolab/idea-arduino/blob/main/code/4_blink_chainable_RGB_led/4_blink_chainable_RGB_led.ino)
+
 [[CODE: blink 2 chainable RGB leds]](https://github.com/id-studiolab/idea-arduino/blob/main/code/4_blink_2x_chainable_RGB_led/4_blink_2x_chainable_RGB_led.ino)
+
 [[CODE: switch/case]](https://github.com/id-studiolab/idea-arduino/blob/main/code/4_blink_switch_case_chainable_led/4_blink_switch_case_chainable_led.ino)
 
-
-### 🍅 Part 05: Let's do the twist : rotation sensor
+### 🍅 5. Let's do the twist : rotation sensor
+Reading the analog rotation sensor input, scaling values with the map function, more serial monitoring.
 
 {% include vimeoPlayer.html id=523242101 %}
 
 [[VIDEO]](https://vimeo.com/523242101/ac8614c8ca)
-[[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/5_rotation_sensor/5_rotation_sensor.ino)
+[[CODE: rotation sensor]](https://github.com/id-studiolab/idea-arduino/blob/main/code/5_rotation_sensor/5_rotation_sensor.ino)
 
 
 ### 🍅 Part 06: Talk to me baby : serial messaging
