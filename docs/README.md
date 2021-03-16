@@ -3,7 +3,7 @@ In this repository you will find all the materials related to the online class.
 
 ## CLASS LIST
 
-### 🍅 Part 01: Introduction : why prototyping for designers?
+### 🍅 1. Introduction : why prototyping for designers?
 Intro to the Arduino and Grove eco-systems, and their value for designers.
 
 {% include vimeoPlayer.html id=523239406 %}
@@ -12,21 +12,22 @@ Intro to the Arduino and Grove eco-systems, and their value for designers.
 
 Installation steps:
 1. download and install the [CP2102x USB driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
-2. download and install the [Arduino IDE software](https://www.arduino.cc/en/software/)
-3. [configure](https://wiki.seeedstudio.com/Seeed_Arduino_Boards/) the Arduino IDE software for using the Seeeduino Lotus board (start from step 2)
+2. download and install the [Arduino IDE software](https://www.arduino.cc/en/software/) (not the web editor)
+3. [configure](https://wiki.seeedstudio.com/Seeed_Arduino_Boards/) the Arduino IDE software for using the Seeeduino Lotus board. Start from step 2. In the boards manager select and install 'Seeeduino AVR' package.
 
 Additional resources:
 1. official [Arduino tutorials](https://www.arduino.cc/en/Tutorial/HomePage/) are a great place to continue your exploration after completing this IDE Academy
 2. Seeedstudio [Grove wiki](https://wiki.seeedstudio.com/Grove/) 
 3. Seeedstudio [Seeeduino Lotus](https://wiki.seeedstudio.com/Seeeduino_Lotus/) board documentation
 
-### 🍅 Part 02: Hello world : Arduino IDE & Blink
-Learn to operate the Arduino IDE and how to turn the internal LED on and off
+### 🍅 2. Hello world : Arduino IDE & Blink
+Introduction to the Arduino IDE software and how to turn the internal LED on and off.
 
 {% include vimeoPlayer.html id=523240097 %}
 
 [[VIDEO]](https://vimeo.com/523240097/a5b9baab76)
-[[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/2_blink_function_1/2_blink_function_1.ino)
+[[CODE: Blink 1]](https://github.com/id-studiolab/idea-arduino/blob/main/code/2_blink_function_1/2_blink_function_1.ino)
+[[CODE: Blink 2]](https://github.com/id-studiolab/idea-arduino/blob/main/code/2_blink_function_2/2_blink_function_2.ino)
 
 ### 🍅 Part 03: My first interaction: button & led
 Let the Arduino know you are there!
