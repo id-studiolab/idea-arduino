@@ -1,5 +1,7 @@
 # Introduction to Programming with Arduino for Design Students
-In this repository you will find all the materials related to the online class.
+On this page you will find all the materials related to the online class.
+
+**Please help us improving this course by giving a very short feedback after each session in this [form](https://forms.gle/yHRpB8EpN3Vm1FBN7).** 
 
 ## SESSIONS LIST
 
@@ -14,11 +16,6 @@ Installation steps:
 1. download and install the [CP2102x USB driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 2. download and install the [Arduino IDE software](https://www.arduino.cc/en/software/) (not the web editor)
 3. [configure](https://wiki.seeedstudio.com/Seeed_Arduino_Boards/) the Arduino IDE software for using the Seeeduino Lotus board. Start from step 2. In the boards manager select and install 'Seeeduino AVR' package.
-
-Additional resources:
-1. official [Arduino tutorials](https://www.arduino.cc/en/Tutorial/HomePage/) are a great place to continue your exploration after completing this IDE Academy
-2. Seeedstudio [Grove wiki](https://wiki.seeedstudio.com/Grove/) 
-3. Seeedstudio [Seeeduino Lotus](https://wiki.seeedstudio.com/Seeeduino_Lotus/) board documentation
 
 
 ### 🍅 2. Hello world : Arduino IDE & Blink
@@ -105,7 +102,7 @@ Non-blocking timing of events.
 
 [[VIDEO]](https://vimeo.com/523402167/5a131160f3)
 
-[[Actng Machine Diagram: RGB lamp]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9%20RGB%20lamp%20Acting%20Machine%20Diagram.pdf)
+[[Acting Machine Diagram: RGB lamp]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9%20RGB%20lamp%20Acting%20Machine%20Diagram.pdf)
 
 [[CODE: RGB lamp with acting machine]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9_RGB_button_acting_machine/9_RGB_button_acting_machine.ino)
 
@@ -114,11 +111,17 @@ Non-blocking timing of events.
 [[CODE: Wipe-Out template]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9_wipe_out_template/9_wipe_out_template.ino)
 
 
-## OTHER RESOURCES
+## OTHER RESOURCES AND LINKS
+- Seeedstudio [Grove wiki](https://wiki.seeedstudio.com/Grove/) documents all the available components
+- Seeedstudio [Seeeduino Lotus](https://wiki.seeedstudio.com/Seeeduino_Lotus/) board documentation
+- the official [Arduino tutorials](https://www.arduino.cc/en/Tutorial/HomePage/) are a great place to continue your exploration after completing this IDE Academy, and the [Arduino forum](https://forum.arduino.cc/) t look for answers to questions and problems
+
 - A [great game song](https://youtu.be/wmin5WkOuPw) to play during Wipe-Out
-- [Dieter Vandoren on the web](https://dietervandoren.net/)
 - A great [soundscape for coding](https://youtu.be/6xBCdNBqJWE)
-- .... enjoy ❤️
+- - [Dieter Vandoren on the web](https://dietervandoren.net/)
+- ... enjoy ❤️
+
+Dieter Vandoren & Aadjan van der Helm
 
 ## DID YOU FIND ERRORS OR HAVE SUGGESTIONS ON HOW TO MAKE THIS VIDEO CLASS BETTER?
 Please open an issue on the repository and help us improve the materials for the future students of this course.
