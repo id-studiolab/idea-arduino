@@ -1,3 +1,4 @@
+// Automatic wiping of a servo motor
 
 // ---------------------------------------------- Libraries
 
@@ -7,6 +8,7 @@
 
 // Create servo object and helper variables
 Servo myservo;
+int servoPin = 5; // connected to port D5
 int pos; // stores position
 int pos_min = 10;   // servo minimum and maximum angle limit,
 int pos_max = 180;  // to avoid shaking motor when over-extending = bad for servo!
@@ -15,7 +17,7 @@ int pos_max = 180;  // to avoid shaking motor when over-extending = bad for serv
 void setup() {
 
   // attaches the servo on pin 5 to the servo object
-  myservo.attach(5);
+  myservo.attach(servoPin);
 
 }
 
