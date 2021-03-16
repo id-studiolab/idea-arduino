@@ -1,10 +1,16 @@
+// toggles the built-in led with button presses
+// first press turns on, next press turns off, and so on
+
+
 // button on port D2
 int buttonPin = 2;
 
 // booleans can have only 2 states : 0/1, true/false, HIGH/LOW 
+// store button states
 boolean buttonCurrentState;
 boolean buttonPreviousState;
 
+// store led state
 boolean ledState;
 
 

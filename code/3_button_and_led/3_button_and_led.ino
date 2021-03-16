@@ -1,3 +1,8 @@
+// momentary control of the built-in led with a button input 
+// (led on while button pressed)
+// with serial monitor feedback
+
+
 // button on port D2
 int buttonPin = 2;
 
