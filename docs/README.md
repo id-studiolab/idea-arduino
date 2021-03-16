@@ -21,30 +21,32 @@ Additional resources:
 3. Seeedstudio [Seeeduino Lotus](https://wiki.seeedstudio.com/Seeeduino_Lotus/) board documentation
 
 ### 🍅 2. Hello world : Arduino IDE & Blink
-Introduction to the Arduino IDE software and how to turn the internal LED on and off.
+Introduction to the Arduino IDE software and turning the internal LED on and off.
 
 {% include vimeoPlayer.html id=523240097 %}
 
 [[VIDEO]](https://vimeo.com/523240097/a5b9baab76)
-[[CODE: Blink 1]](https://github.com/id-studiolab/idea-arduino/blob/main/code/2_blink_function_1/2_blink_function_1.ino)
-[[CODE: Blink 2]](https://github.com/id-studiolab/idea-arduino/blob/main/code/2_blink_function_2/2_blink_function_2.ino)
+[[CODE: Blink with functions]](https://github.com/id-studiolab/idea-arduino/blob/main/code/2_blink_function_1/2_blink_function_1.ino)
 
-### 🍅 Part 03: My first interaction: button & led
-Let the Arduino know you are there!
+### 🍅 3. My first interaction: button & led
+Reading button sensor input, if/else statement and serial monitor feedback.
 
 {% include vimeoPlayer.html id=523470804 %}
 
 [[VIDEO]](https://vimeo.com/523470804/cdb7809d5b)
-[[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/3_button_and_led/3_button_and_led.ino)
+[[CODE: button and led]](https://github.com/id-studiolab/idea-arduino/blob/main/code/3_button_and_led/3_button_and_led.ino)
 
 
-### 🍅 Part 04: Rainbow Warrior : Grove Chainable RGB Led
-Oh, those rainbow unicorns!!!
+### 🍅 4. Rainbow Warrior : Grove Chainable RGB Led
+The Grove chainable RGB LED, FastLED library and switch/case statement.
 
 {% include vimeoPlayer.html id=523241204 %}
 
 [[VIDEO]](https://vimeo.com/523241204/a698351a80)
-[[CODE]](https://github.com/id-studiolab/pomodoro/blob/master/arduino_code/03_color_fade/03_color_fade.ino)
+[[CODE: initializing the chainable RGB led]](https://github.com/id-studiolab/idea-arduino/blob/main/code/4_init_chainable_RGB_led/4_init_chainable_RGB_led.ino)
+[[CODE: blink the chainable RGB led]](https://github.com/id-studiolab/idea-arduino/blob/main/code/4_blink_chainable_RGB_led/4_blink_chainable_RGB_led.ino)
+[[CODE: blink 2 chainable RGB leds]](https://github.com/id-studiolab/idea-arduino/blob/main/code/4_blink_2x_chainable_RGB_led/4_blink_2x_chainable_RGB_led.ino)
+[[CODE: switch/case]](https://github.com/id-studiolab/idea-arduino/blob/main/code/4_blink_switch_case_chainable_led/4_blink_switch_case_chainable_led.ino)
 
 
 ### 🍅 Part 05: Let's do the twist : rotation sensor
