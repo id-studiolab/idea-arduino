@@ -1,3 +1,8 @@
+// Fades color on a Grove chainable RGB led 
+// from full blue to full red
+// with all shades of purple in between
+
+
 // ---------------------------------------------- Libraries
 
 #include <FastLED.h>
