@@ -1,7 +1,7 @@
 # Introduction to Programming with Arduino for Design Students
 In this repository you will find all the materials related to the online class.
 
-## CLASS LIST
+## SESSIONS LIST
 
 ### 🍅 1. Introduction : why prototyping for designers?
 Intro to the Arduino and Grove eco-systems, and their value for designers.
@@ -20,6 +20,7 @@ Additional resources:
 2. Seeedstudio [Grove wiki](https://wiki.seeedstudio.com/Grove/) 
 3. Seeedstudio [Seeeduino Lotus](https://wiki.seeedstudio.com/Seeeduino_Lotus/) board documentation
 
+
 ### 🍅 2. Hello world : Arduino IDE & Blink
 Introduction to the Arduino IDE software and turning the internal LED on and off.
 
@@ -28,6 +29,7 @@ Introduction to the Arduino IDE software and turning the internal LED on and off
 [[VIDEO]](https://vimeo.com/523240097/a5b9baab76)
 
 [[CODE: Blink with functions]](https://github.com/id-studiolab/idea-arduino/blob/main/code/2_blink_function_1/2_blink_function_1.ino)
+
 
 ### 🍅 3. My first interaction: button & led
 Reading the digital button sensor input, if/else statement and serial monitor feedback.
@@ -53,6 +55,7 @@ The Grove chainable RGB LED, FastLED library and switch/case statement.
 [[CODE: blink 2 chainable RGB leds]](https://github.com/id-studiolab/idea-arduino/blob/main/code/4_blink_2x_chainable_RGB_led/4_blink_2x_chainable_RGB_led.ino)
 
 [[CODE: switch/case]](https://github.com/id-studiolab/idea-arduino/blob/main/code/4_blink_switch_case_chainable_led/4_blink_switch_case_chainable_led.ino)
+
 
 ### 🍅 5. Let's do the twist : rotation sensor
 Reading the analog rotation sensor input, scaling values with the map function, more serial monitoring.
@@ -85,6 +88,7 @@ Controlling the servo motor with a sensor and the for loop. Plus a blocking prob
 
 [[CODE: servo wiper with for loop]](https://github.com/id-studiolab/idea-arduino/blob/main/code/7_servo_wiper_for_loop/7_servo_wiper_for_loop.ino)
 
+
 ### 🍅 8. Time is honey : millis() & proper timing
 Non-blocking timing of events.
 
@@ -93,6 +97,7 @@ Non-blocking timing of events.
 [[VIDEO]](https://vimeo.com/523401869/8ea40c624f)
 
 [[CODE: non-blocking blink]](https://github.com/id-studiolab/idea-arduino/blob/main/code/8_blink_non-blocking/8_blink_non-blocking.ino)
+
 
 ### 🍅 9. The game : Wipe-Out
 
@@ -107,6 +112,7 @@ Non-blocking timing of events.
 [[Acting Machine Diagram: Wipe-Out game]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9%20Wipe%20Out%20game%20Acting%20Machine%20Diagram.pdf)
 
 [[CODE: Wipe-Out template]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9_wipe_out_template/9_wipe_out_template.ino)
+
 
 ## OTHER RESOURCES
 - A [great game song](https://youtu.be/wmin5WkOuPw) to play during Wipe-Out
