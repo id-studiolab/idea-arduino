@@ -21,5 +21,5 @@ void ledOn(int rate) {
   
 void ledOff(int rate) {  
   digitalWrite(LED_BUILTIN, LOW);    // turn led off
-  delay(1000);                       // wait x milliseconds
+  delay(rate);                       // wait x milliseconds
 }

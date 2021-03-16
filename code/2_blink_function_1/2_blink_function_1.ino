@@ -1,4 +1,5 @@
-
+// variation on blink
+// uses 2 custom functions for turning on and off the led
 
 
 void setup() {
@@ -8,15 +9,17 @@ void setup() {
 
 
 void loop() {
-
-  blinky(250);   // call my custom blinky function, pass it a rate argument
-                    
+  ledOn();   // call my custom function ledOn
+  ledOff();  // call my custom function ledOff                
 }
 
 
-void blinky(int rate) {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn on
-  delay(rate);                       // use rate parameter passed with function call
-  digitalWrite(LED_BUILTIN, LOW);    // turn off
-  delay(rate);                       // use rate parameter passed with function call
+void ledOn() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn led on
+  delay(1000);                       // wait 1000 milliseconds
+}
+  
+void ledOff() {  
+  digitalWrite(LED_BUILTIN, LOW);    // turn led off
+  delay(1000);                       // wait 1000 milliseconds
 }
