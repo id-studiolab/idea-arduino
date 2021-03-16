@@ -15,7 +15,7 @@ Learn to operate the Arduino IDE and how to turn the internal LED on and off
 
 {% include vimeoPlayer.html id=523240097 %}
 
-[[VIDEO]](https://vimeo.com/523240097)
+[[VIDEO]](https://vimeo.com/523240097/a5b9baab76)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/2_blink_function_1/2_blink_function_1.ino)
 
 ### 🍅 Part 03: My first interaction: button & led
@@ -23,7 +23,7 @@ Let the Arduino know you are there!
 
 {% include vimeoPlayer.html id=523470804 %}
 
-[[VIDEO]](https://vimeo.com/523470804)
+[[VIDEO]](https://vimeo.com/523470804/cdb7809d5b)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/3_button_and_led/3_button_and_led.ino)
 
 
@@ -32,7 +32,7 @@ Oh, those rainbow unicorns!!!
 
 {% include vimeoPlayer.html id=523241204 %}
 
-[[VIDEO]](https://vimeo.com/523241204)
+[[VIDEO]](https://vimeo.com/523241204/a698351a80)
 [[CODE]](https://github.com/id-studiolab/pomodoro/blob/master/arduino_code/03_color_fade/03_color_fade.ino)
 
 
@@ -40,7 +40,7 @@ Oh, those rainbow unicorns!!!
 
 {% include vimeoPlayer.html id=523242101 %}
 
-[[VIDEO]](https://vimeo.com/523242101)
+[[VIDEO]](https://vimeo.com/523242101/ac8614c8ca)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/5_rotation_sensor/5_rotation_sensor.ino)
 
 
@@ -56,21 +56,21 @@ Oh, those rainbow unicorns!!!
 
 {% include vimeoPlayer.html id=523401340 %}
 
-[[VIDEO]](https://vimeo.com/523401340)
+[[VIDEO]](https://vimeo.com/523401340/52f9b3df7a)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/7_solution/7_solution.ino)
 
 ### 🍅 Part 08: Time is honey : millis() & proper timing
 
 {% include vimeoPlayer.html id=523401869 %}
 
-[[VIDEO]](https://vimeo.com/523242373/dc9f018fee)
+[[VIDEO]](https://vimeo.com/523401869/8ea40c624f)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/8_timing/8_timing.ino)
 
 ### 🍅 Part 09: The game : Wipe-out
 
 {% include vimeoPlayer.html id=523402167 %}
 
-[[VIDEO]](https://vimeo.com/523402167)
+[[VIDEO]](https://vimeo.com/523402167/5a131160f3)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9_wipe_out_template/9_wipe_out_template.ino)
 
 ## OTHER RESOURCES
