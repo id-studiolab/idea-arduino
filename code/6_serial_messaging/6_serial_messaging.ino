@@ -1,3 +1,6 @@
+// Demonstrates labelling and formatting of serial monitor messages.
+
+
 // ---------------------------------------------- Libraries
 
 #include <FastLED.h>
@@ -37,14 +40,16 @@ void loop() {
   // read sensor input value
   rotaValue = analogRead(rotaPin);
 
-  // print value to serial
-  Serial.print("Rotation sensor input = ");
-  Serial.println(rotaValue);
-
   // scale sensor input value [0,1023] to LED brightness range [0,255]
-  int brightness = map(rotaValue, 0, 1023, 0, 255);
+  int dim = map(rotaValue, 0, 1023, 0, 255);
+
+  // print value to serial
+  Serial.print("Rotation sensor: ");
+  Serial.print(rotaValue);
+  Serial.print("\tDim value: ");
+  Serial.println(dim);
 
   // set color and show
-  leds[0].setRGB(brightness, brightness, brightness);
+  leds[0].setRGB(dim, dim, dim);
   FastLED.show();
 }
