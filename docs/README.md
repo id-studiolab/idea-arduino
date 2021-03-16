@@ -6,9 +6,9 @@ In this repository you will find all the materials related to the online class.
 ### 🍅 Part 01: Introduction : why prototyping for designers?
 Intro to the class resources and materials.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VUZ3verZ18k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://vimeo.com/523239406/4390efdae5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[[VIDEO]](https://youtu.be/VUZ3verZ18k)
+[[VIDEO]](https://vimeo.com/523239406/4390efdae5)
 [[SLIDES]](https://id-studiolab.github.io/pomodoro/slides/00_intro.pdf)
 
 ### 🍅 Part 02: Hello world : Arduino IDE & Blink
