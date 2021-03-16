@@ -63,7 +63,7 @@ Oh, those rainbow unicorns!!!
 
 {% include vimeoPlayer.html id=523401869 %}
 
-[[VIDEO]](https://vimeo.com/523401869)
+[[VIDEO]](https://vimeo.com/523242373/dc9f018fee)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/8_timing/8_timing.ino)
 
 ### 🍅 Part 09: The game : Wipe-out
