@@ -1,3 +1,5 @@
+// Program template for the Wipe Out game assignement
+// Fill-in the missing code blocks labeled with TODO
 
 // ---------------------------------------------- Libraries
 
@@ -16,7 +18,7 @@ void setup() {
   // initial effects, no changes here: 
   resetPos();
   ledsOff();
-  setTimer1();
+  setStartTimer();
 }
 
 void loop() {
@@ -26,15 +28,11 @@ void loop() {
 
 // ---------------------------------------------- Acting Machine cause functions
 
-boolean timer1Expired() {
-  if (millis() > timer1_mark + timer1_duration) {
-    return true;
-  } else {
-    return false;
-  }
+boolean startTimerExpired() {
+  // TODO: Return whether condition is true or false
 }
 
-boolean timer2Expired() {
+boolean roundTimerExpired() {
   // TODO: Return whether condition is true or false
 }
 
@@ -60,9 +58,9 @@ void ledsOff() {
   // TODO: Write code to perform this effect
 }
 
-void setTimer1() {
+void setStartTimer() {
   // store current time mark
-  timer1_mark = millis();
+  start_timer_mark = millis();
 }
 
 void setDirection() {
@@ -76,12 +74,13 @@ void targetLed() {
 
 void stepWipe() {
   
-  if (millis() > timer3_mark + timer3_duration) {
+  if (millis() > wipe_timer_mark + wipe_timer_duration) {
 
     // if direction is 1 wipe left, if 0 wipe right
+    
     // TODO: Write code to perform this effect
 
-    timer3_mark = millis();
+    wipe_timer_mark = millis();
   }
 }
 
@@ -103,8 +102,8 @@ void setTimer3() {
 
 void setWiperSpeed() {
   // speed up wiping by shortening the time between wipe steps
-  timer3_duration = map(counter, 0, 9, 20, 1); // map game rounds count to wiper step interval in milliseconds
-  timer3_duration = max(timer3_duration, 1);   // make sure result doesn't go smaller than 1 millisecond
+  wipe_timer_duration = map(counter, 0, 9, 20, 1); // map game rounds count to wiper step interval in milliseconds
+  wipe_timer_duration = max(timer3_duration, 1);   // make sure result doesn't go smaller than 1 millisecond
 }
 
 
@@ -127,11 +126,11 @@ void updateStateMachine ()
     
     // -------------------------------------- State idle
     case state_idle :
-      if (timer1Expired()) {
+      if (startTimerExpired()) {
         setDirection();
         targetLed();
         setWiperSpeed();
-        setTimer3();
+        setWipeTimer();
         current_state = state_wipe;
       }
       break;
@@ -143,12 +142,12 @@ void updateStateMachine ()
 
       if (buttonPressed()) {
         ledsGreen();
-        setTimer2();
+        setRoundTimer();
         current_state = state_win;
       } else {
         if (wipeFinished()) {
           ledsRed();
-          setTimer2();
+          setRoundTimer();
           current_state = state_lose;
         }
       }
@@ -156,22 +155,22 @@ void updateStateMachine ()
 
     // -------------------------------------- State win
     case state_win :
-      if (timer2Expired()) {
+      if (roundTimerExpired()) {
         counter++; // increment game rounds counter
         ledsOff();
         resetPos();
-        setTimer1();
+        setStartTimer();
         current_state = state_idle;
       }
       break;
 
     // -------------------------------------- State lose
     case state_lose :
-      if (timer2Expired()) {
+      if (roundTimerExpired()) {
         counter = 0; // reset game rounds counter
         ledsOff();
         resetPos();
-        setTimer1();
+        setStartTimer();
         current_state = state_idle;
       }
       break;

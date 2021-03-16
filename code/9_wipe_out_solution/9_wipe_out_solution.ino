@@ -1,3 +1,4 @@
+// Solution code of the Wipe Out game assignment 
 
 // ---------------------------------------------- Libraries
 
@@ -23,12 +24,12 @@ int pos_min = 10;   // servo minimum and maximum angle limit,
 int pos_max = 180;  // to avoid shaking motor when over-extending = bad for servo!
 
 // Make it possible to track the passing of time
-unsigned long timer1_duration = 2000; // start delay
-unsigned long timer1_mark = 0;
-unsigned long timer2_duration = 2000; // round end delay
-unsigned long timer2_mark = 0;
-unsigned long timer3_duration = 20; // wiper step interval
-unsigned long timer3_mark = 0;
+unsigned long start_timer_duration = 2000; // start delay
+unsigned long start_timer_mark = 0;
+unsigned long round_timer_duration = 2000; // round end delay
+unsigned long round_timer_mark = 0;
+unsigned long wipe_timer_duration = 20; // wiper step interval
+unsigned long wipe_timer_mark = 0;
 
 // Variables to track button states
 boolean button_success = false;
@@ -67,7 +68,7 @@ void setup() {
   // initial effects
   resetPos();
   ledsOff();
-  setTimer1();
+  setStartTimer();
 }
 
 void loop() {
@@ -76,16 +77,16 @@ void loop() {
 
 // ---------------------------------------------- Acting Machine cause functions
 
-boolean timer1Expired() {
-  if (millis() > timer1_mark + timer1_duration) {
+boolean startTimerExpired() {
+  if (millis() > start_timer_mark + start_timer_duration) {
     return true;
   } else {
     return false;
   }
 }
 
-boolean timer2Expired() {
-  if (millis() > timer2_mark + timer2_duration) {
+boolean roundTimerExpired() {
+  if (millis() > round_timer_mark + round_timer_duration) {
     return true;
   } else {
     return false;
@@ -156,9 +157,9 @@ void ledsOff() {
   FastLED.show();
 }
 
-void setTimer1() {
+void setStartTimer() {
   // store current time mark
-  timer1_mark = millis();
+  start_timer_mark = millis();
 }
 
 void setDirection() {
@@ -179,7 +180,7 @@ void targetLed() {
 void stepWipe() {
   // if direction is 1 wipe left, if 0 wipe right
 
-  if (millis() > timer3_mark + timer3_duration) {
+  if (millis() > wipe_timer_mark + wipe_timer_duration) {
     if (wipe_dir == 1) {
       pos++; // left, increment pos value by 1
     } else {
@@ -188,7 +189,7 @@ void stepWipe() {
     pos = constrain(pos, pos_min, pos_max); // constrain new pos within [min, max] servo range
     myservo.write(pos); // move step
 
-    timer3_mark = millis();
+    wipe_timer_mark = millis();
   }
 }
 
@@ -204,20 +205,20 @@ void ledsRed() {
   FastLED.show();
 }
 
-void setTimer2() {
+void setRoundTimer() {
   // store current time mark
-  timer2_mark = millis();
+  round_timer_mark = millis();
 }
 
-void setTimer3() {
+void setWipeTimer() {
   // store current time mark
-  timer3_mark = millis();
+  wipe_timer_mark = millis();
 }
 
 void setWiperSpeed() {
   // speed up wiping by shortening the time between wipe steps
-  timer3_duration = map(counter, 0, 9, 20, 1); // wiper step interval in milliseconds
-  timer3_duration = max(timer3_duration, 1); // make sure result doesn't go smaller than 1 millisecond
+  wipe_timer_duration = map(counter, 0, 9, 20, 1); // wiper step interval in milliseconds
+  wipe_timer_duration = max(wipe_timer_duration, 1); // make sure result doesn't go smaller than 1 millisecond
 }
 
 
@@ -238,11 +239,11 @@ void updateStateMachine ()
 
     // -------------------------------------- State idle
     case state_idle :
-      if (timer1Expired()) {
+      if (startTimerExpired()) {
         setDirection();
         targetLed();
         setWiperSpeed();
-        setTimer3();
+        setWipeTimer();
         current_state = state_wipe;
       }
       break;
@@ -254,12 +255,12 @@ void updateStateMachine ()
 
       if (buttonPressed()) {
         ledsGreen();
-        setTimer2();
+        setRoundTimer();
         current_state = state_win;
       } else {
         if (wipeFinished()) {
           ledsRed();
-          setTimer2();
+          setRoundTimer();
           current_state = state_lose;
         }
       }
@@ -267,22 +268,22 @@ void updateStateMachine ()
 
     // -------------------------------------- State win
     case state_win :
-      if (timer2Expired()) {
+      if (roundTimerExpired()) {
         counter++; // increment game rounds counter
         ledsOff();
         resetPos();
-        setTimer1();
+        setStartTimer();
         current_state = state_idle;
       }
       break;
 
     // -------------------------------------- State lose
     case state_lose :
-      if (timer2Expired()) {
+      if (roundTimerExpired()) {
         counter = 0; // reset game rounds counter
         ledsOff();
         resetPos();
-        setTimer1();
+        setStartTimer();
         current_state = state_idle;
       }
       break;
