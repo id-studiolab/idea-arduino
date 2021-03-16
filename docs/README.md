@@ -23,7 +23,7 @@ Let the Arduino know you are there!
 
 {% include vimeoPlayer.html id=523470804 %}
 
-[[VIDEO]]((https://vimeo.com/523470804)
+[[VIDEO]](https://vimeo.com/523470804)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/3_button_and_led/3_button_and_led.ino)
 
 
@@ -48,7 +48,7 @@ Oh, those rainbow unicorns!!!
 
 {% include vimeoPlayer.html id=523242373 %}
 
-[[VIDEO]]((https://vimeo.com/523242373)
+[[VIDEO]](https://vimeo.com/523242373)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/6_serial_messaging/6_serial_messaging.ino)
 
 
@@ -56,14 +56,14 @@ Oh, those rainbow unicorns!!!
 
 {% include vimeoPlayer.html id=523401340 %}
 
-[[VIDEO]]((https://vimeo.com/523401340)
+[[VIDEO]](https://vimeo.com/523401340)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/7_solution/7_solution.ino)
 
 ### 🍅 Part 08: Time is honey : millis() & proper timing
 
 {% include vimeoPlayer.html id=523401869 %}
 
-[[VIDEO]]((https://vimeo.com/523401869)
+[[VIDEO]](https://vimeo.com/523401869)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/8_timing/8_timing.ino)
 
 ### 🍅 Part 09: The game : Wipe-out
@@ -74,9 +74,9 @@ Oh, those rainbow unicorns!!!
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9_wipe_out_template/9_wipe_out_template.ino)
 
 ## OTHER RESOURCES
-- A [[great game song]](https://youtu.be/wmin5WkOuPw) to play during Wipe-Out
-- [[Dieter Vandoren on the web]](https://dietervandoren.net/)
-- A great [[soundscape for coding]](https://youtu.be/6xBCdNBqJWE)
+- A [great game song](https://youtu.be/wmin5WkOuPw) to play during Wipe-Out
+- [Dieter Vandoren on the web](https://dietervandoren.net/)
+- A great [soundscape for coding](https://youtu.be/6xBCdNBqJWE)
 - .... enjoy ❤️
 
 ## DID YOU FIND ERRORS OR HAVE SUGGESTIONS ON HOW TO MAKE THIS VIDEO CLASS BETTER?
