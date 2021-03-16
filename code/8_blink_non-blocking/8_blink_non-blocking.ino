@@ -1,5 +1,5 @@
 // Non-blocking version of blink
-// Rotation sensor controls rate of blinking
+// Prints to serial monitor while blinking
 
 int loop_counter;
 
@@ -7,26 +7,18 @@ unsigned long time_now;
 unsigned long timer_mark;
 unsigned long timer_interval = 500;
 
-// led
 boolean led_state;
 
-// rotation sensor
-int rotaPin = A0;
-int rotaValue;
-
-
 void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
-  pinMode(rotaPin, INPUT);
+
+  Serial.begin(9600);
 }
 
 
 void loop() {
 
-  rotaValue = analogRead(rotaPin); // get sensor input value
-  
-  timer_interval = map(rotaValue, 0, 1023, 50, 1000); // map sensor input to ms rate range
-  
   // timer controlled blinking
   if (timerElapsed()) {
     if (led_state == 0) {
@@ -37,6 +29,10 @@ void loop() {
       led_state = 0;
     }
   }
+
+  loop_counter++;
+
+  Serial.println(loop_counter);
 }
 
 
@@ -45,6 +41,11 @@ boolean timerElapsed() {
   // what time is it now? 
   // Ie. how many milliseconds have elapsed since boot up?
   time_now = millis();
+
+  // example :
+  // timer_mark = 2000 ms (event started 2sec ago)
+  // timer_interval = 500 ms (0,5sec blink interval)
+  // returns true at 2501 ms (>2500)
 
   // has the interval duration since last time mark elasped?
   if (time_now > timer_mark + timer_interval) { 
