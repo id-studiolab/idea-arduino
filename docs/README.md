@@ -48,7 +48,7 @@ Oh, those rainbow unicorns!!!
 
 {% include vimeoPlayer.html id=523242373 %}
 
-[[VIDEO]](https://vimeo.com/523242373)
+[[VIDEO]](https://vimeo.com/523242373/dc9f018fee)
 [[CODE]](https://github.com/id-studiolab/idea-arduino/blob/main/code/6_serial_messaging/6_serial_messaging.ino)
 
 
