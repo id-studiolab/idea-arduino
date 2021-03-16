@@ -19,7 +19,7 @@ Installation steps:
 
 
 ### 🍅 2. Hello world : Arduino IDE & Blink
-Introduction to the Arduino IDE software and turning the internal LED on and off.
+Introduction to the Arduino IDE software and controlling the internal LED.
 
 {% include vimeoPlayer.html id=523240097 %}
 
