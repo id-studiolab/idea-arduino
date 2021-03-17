@@ -8,7 +8,9 @@ On this page you will find all the materials related to the online class. Compon
 - 1x Micro USB cable
 - 6x Grove cables
 
-**Please help us improving this course by giving a very short feedback after each session in this [form](https://forms.gle/yHRpB8EpN3Vm1FBN7).** 
+## SOLUTIONS
+
+**Update:** The solution code to the sessions' assignments is now given [here](https://docs.google.com/spreadsheets/d/1EEkbK77cVY4jiZCl3QgVoBcFCmfnID-e0eGJWk6V_5k/edit#gid=1975972419).
 
 ## SESSIONS LIST
 
