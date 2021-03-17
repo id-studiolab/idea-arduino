@@ -1,5 +1,12 @@
 # Introduction to Programming with Arduino for Design Students
-On this page you will find all the materials related to the online class.
+On this page you will find all the materials related to the online class. Components from the IDE Electronics Kit are necessary. The used components list is:
+- 1x Seeeduino Lotus Arduino board
+- 2x Grove Button
+- 2x Grove Chainable RGB LED
+- 1x Grove Rotation Sensor
+- 1x Grove Servo motor
+- 1x Micro USB cable
+- 6x Grove cables
 
 **Please help us improving this course by giving a very short feedback after each session in this [form](https://forms.gle/yHRpB8EpN3Vm1FBN7).** 
 
