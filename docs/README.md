@@ -10,7 +10,7 @@ On this page you will find all the materials related to the online class. Compon
 
 ## SOLUTIONS
 
-**Update:** The solution code to the sessions' assignments is now given [here](https://docs.google.com/spreadsheets/d/1EEkbK77cVY4jiZCl3QgVoBcFCmfnID-e0eGJWk6V_5k/edit#gid=1975972419).
+**Update:** The solution code to the sessions' assignments is now accessible [here](https://github.com/id-studiolab/idea-arduino/tree/main/code/extra).
 
 ## SESSIONS LIST
 
