@@ -92,18 +92,18 @@ void ledsRed() {
   // TODO: Write code to perform this effect
 }
 
-void setTimer2() {
+void setWipeTimer() {
   // TODO: Write code to perform this effect
 }
 
-void setTimer3() {
+void setRoundTimer() {
   // TODO: Write code to perform this effect
 }
 
 void setWiperSpeed() {
   // speed up wiping by shortening the time between wipe steps
   wipe_timer_duration = map(counter, 0, 9, 20, 1); // map game rounds count to wiper step interval in milliseconds
-  wipe_timer_duration = max(timer3_duration, 1);   // make sure result doesn't go smaller than 1 millisecond
+  wipe_timer_duration = max(wipe_timer_duration, 1);   // make sure result doesn't go smaller than 1 millisecond
 }
 
 
