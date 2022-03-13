@@ -8,10 +8,6 @@ On this page you will find all the materials related to the online class. Compon
 - 1x Micro USB cable
 - 6x Grove cables
 
-## SOLUTIONS
-
-**Update:** The solution code to the sessions' assignments is now accessible [here](https://github.com/id-studiolab/idea-arduino/tree/main/code/extra).
-
 ## SESSIONS LIST
 
 ### 🍅 1. Introduction : why prototyping for designers?
