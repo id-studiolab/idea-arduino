@@ -120,7 +120,7 @@ Non-blocking timing of events.
 ## OTHER RESOURCES AND LINKS
 - Seeedstudio [Grove wiki](https://wiki.seeedstudio.com/Grove/) documents all the available components
 - Seeedstudio [Seeeduino Lotus](https://wiki.seeedstudio.com/Seeeduino_Lotus/) board documentation
-- the official [Arduino tutorials](https://www.arduino.cc/en/Tutorial/HomePage/) are a great place to continue your exploration after completing this IDE Academy, and the [Arduino forum](https://forum.arduino.cc/) t look for answers to questions and problems
+- the official [Arduino tutorials](https://www.arduino.cc/en/Tutorial/HomePage/) are a great place to continue your exploration after completing this IDE Academy, and the [Arduino forum](https://forum.arduino.cc/) to look for answers to questions and problems
 
 - A [great game song](https://youtu.be/wmin5WkOuPw) to play during Wipe-Out
 - A great [soundscape for coding](https://youtu.be/6xBCdNBqJWE)
@@ -130,4 +130,4 @@ Non-blocking timing of events.
 Dieter Vandoren & Aadjan van der Helm
 
 ## DID YOU FIND ERRORS OR HAVE SUGGESTIONS ON HOW TO MAKE THIS VIDEO CLASS BETTER?
-Please open an issue on the repository and help us improve the materials for the future students of this course.
+Please open an issue on the GitHub repository and help us improve the materials for the future students of this course.
