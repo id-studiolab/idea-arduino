@@ -72,6 +72,7 @@ Reading the analog rotation sensor input, scaling values with the map function, 
 
 [[CODE: rotation sensor]](https://github.com/id-studiolab/idea-arduino/blob/main/code/5_rotation_sensor/5_rotation_sensor.ino)
 
+**Solution:** [[here]](https://github.com/id-studiolab/idea-arduino/blob/main/code/extra/5_solution/5_solution.ino)
 
 ### 🍅 6. Talk to me baby : serial messaging
 Formatting neat serial monitor messages.
