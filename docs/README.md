@@ -123,6 +123,8 @@ Non-blocking timing of events.
 
 [[CODE: Wipe-Out template]](https://github.com/id-studiolab/idea-arduino/blob/main/code/9_wipe_out_template/9_wipe_out_template.ino)
 
+**Solution:** [[here]](https://github.com/id-studiolab/idea-arduino/blob/main/code/extra/9_wipe_out_solution/9_wipe_out_solution.ino)
+
 
 ## OTHER RESOURCES AND LINKS
 - Seeedstudio [Grove wiki](https://wiki.seeedstudio.com/Grove/) documents all the available components
