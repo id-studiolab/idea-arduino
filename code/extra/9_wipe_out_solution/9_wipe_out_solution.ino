@@ -72,7 +72,7 @@ void setup() {
 }
 
 void loop() {
-  updateStateMachine();
+  updateActingMachine();
 }
 
 // ---------------------------------------------- Acting Machine cause functions
@@ -224,7 +224,7 @@ void setWiperSpeed() {
 
 // ------------------------------------------ Acting Machine control flow
 
-// Collection of states of the Acting Machine (state machine)
+// Collection of states of the Acting Machine
 const int state_idle = 0;
 const int state_wipe = 1;
 const int state_lose = 2;
@@ -233,7 +233,7 @@ const int state_win = 3;
 // Remember the current state
 int current_state = 0;
 
-void updateStateMachine ()
+void updateActingMachine ()
 {
   switch (current_state) {
 
