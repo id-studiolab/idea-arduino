@@ -61,6 +61,7 @@ The Grove chainable RGB LED, FastLED library and switch/case statement.
 
 [[CODE: switch/case]](https://github.com/id-studiolab/idea-arduino/blob/main/code/4_blink_switch_case_chainable_led/4_blink_switch_case_chainable_led.ino)
 
+**Solution:** [[here]](https://github.com/id-studiolab/idea-arduino/blob/main/code/extra/4_solution/4_solution.ino)
 
 ### 🍅 5. Let's do the twist : rotation sensor
 Reading the analog rotation sensor input, scaling values with the map function, more serial monitoring.
