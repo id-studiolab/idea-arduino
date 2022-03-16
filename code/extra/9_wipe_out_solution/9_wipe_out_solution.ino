@@ -224,7 +224,7 @@ void setWiperSpeed() {
 
 // ------------------------------------------ Acting Machine control flow
 
-// Collection of states for Pomodoro Acting Machine (pam)
+// Collection of states of the Acting Machine (state machine)
 const int state_idle = 0;
 const int state_wipe = 1;
 const int state_lose = 2;
