@@ -20,7 +20,7 @@ Intro to the Arduino and Grove eco-systems, and their value for designers.
 Installation steps:
 1. download and install the [CP2102x USB driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)*
 2. download and install the [Arduino IDE software](https://www.arduino.cc/en/software/) (v1.8.x, not v2.x or the web editor)
-3. [configure](https://wiki.seeedstudio.com/Seeed_Arduino_Boards/) the Arduino IDE software for using the Seeeduino Lotus board. Start from step 2. In the boards manager select and install 'Seeeduino AVR' package. **NOTE: the Seeedstudio page has an error, this is the correct URL to add in preferences: https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/package_legacy_seeeduino_boards_index.json** 
+3. [configure](https://wiki.seeedstudio.com/Seeed_Arduino_Boards/) the Arduino IDE software for using the **Seeeduino Lotus** board (not Seeduino Stalker). Start from step 2. In the boards manager select and install **'Seeeduino AVR'** package (not Stalker). **NOTE: the Seeedstudio page has an error, this is the correct URL to add in preferences: https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/package_legacy_seeeduino_boards_index.json** 
 
 \* This is for current Lotus v1.1 boards. For older v1.0 boards use the [CH340 USB driver](http://www.wch-ic.com/downloads/CH341SER_ZIP.html) 
 
