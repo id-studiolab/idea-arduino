@@ -105,6 +105,8 @@ Non-blocking timing of events.
 
 [[CODE: non-blocking blink]](https://github.com/id-studiolab/idea-arduino/blob/main/code/8_blink_non-blocking/8_blink_non-blocking.ino)
 
+**Solution #1:** [[here]](https://github.com/id-studiolab/idea-arduino/blob/main/code/extra/8_solution/8_solution.ino)
+**Solution #2:** [[here]](https://github.com/id-studiolab/idea-arduino/blob/main/code/extra/8_solution_2/8_solution_2.ino)
 
 ### 🍅 9. The game : Wipe-Out
 
