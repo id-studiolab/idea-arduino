@@ -33,6 +33,7 @@ Introduction to the Arduino IDE software and controlling the internal LED.
 
 [[CODE: Blink with functions]](https://github.com/id-studiolab/idea-arduino/blob/main/code/2_blink_function_1/2_blink_function_1.ino)
 
+**Solution:** https://github.com/id-studiolab/idea-arduino/blob/main/code/extra/2_solution/2_solution.ino
 
 ### 🍅 3. My first interaction: button & led
 Reading the digital button sensor input, if/else statement and serial monitor feedback.
@@ -43,6 +44,7 @@ Reading the digital button sensor input, if/else statement and serial monitor fe
 
 [[CODE: button and led]](https://github.com/id-studiolab/idea-arduino/blob/main/code/3_button_and_led/3_button_and_led.ino)
 
+**Solution:** https://github.com/id-studiolab/idea-arduino/blob/main/code/extra/3_solution/3_solution.ino
 
 ### 🍅 4. Rainbow Warrior : Grove Chainable RGB Led
 The Grove chainable RGB LED, FastLED library and switch/case statement.
