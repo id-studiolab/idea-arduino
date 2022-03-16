@@ -44,7 +44,7 @@ Reading the digital button sensor input, if/else statement and serial monitor fe
 
 [[CODE: button and led]](https://github.com/id-studiolab/idea-arduino/blob/main/code/3_button_and_led/3_button_and_led.ino)
 
-**Solution:** https://github.com/id-studiolab/idea-arduino/blob/main/code/extra/3_solution/3_solution.ino
+**Solution:** [[here]](https://github.com/id-studiolab/idea-arduino/blob/main/code/extra/3_solution/3_solution.ino)
 
 ### 🍅 4. Rainbow Warrior : Grove Chainable RGB Led
 The Grove chainable RGB LED, FastLED library and switch/case statement.
